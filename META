@@ -1,0 +1,7 @@
+name= "email_message_1342"
+version = "0.1.1"
+description = "rfc1342 enhancement to email_message"
+requires="email_message"
+archive(byte)= "email_message_1342.cma"
+archive(native)= "email_message_1342.cmxa"
+
