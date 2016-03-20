@@ -15,7 +15,9 @@ module Simple :
       subject:string ->
       ?id:string ->
       ?date:Core.Std.Time.t ->
-      ?extra_headers:(Email_message.Field_name.t * string) list ->
+      ?extra_headers:(Email_message.Headers.Name.t *
+                      Email_message.Headers.Value.t)
+                     list ->
       ?attachments:(Email_message.Email.Simple.attachment_name *
                     Email_message.Email.Simple.Content.t)
                    list ->
